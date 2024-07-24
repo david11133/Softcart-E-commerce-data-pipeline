@@ -59,8 +59,3 @@ Our team has prepared a set of data containing search terms on our e-Commerce pl
 - **Big Data Analytics Platform** – Spark
 - **Business Intelligence Dashboard** - IBM Cognos Analytics
 - **Data Pipelines** - Apache Airflow
-
-## About This Project
-This project is part of the IBM Data Engineering Professional Certificate program, offered by IBM Skills Network and hosted on Coursera.
-
-Read more: https://www.coursera.org/learn/data-enginering-capstone-project
