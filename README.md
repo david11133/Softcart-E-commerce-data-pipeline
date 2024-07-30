@@ -14,7 +14,7 @@ SoftCart's online presence is primarily through its website, which customers acc
 - MongoDB: Stores catalog data of the products.
 - MySQL: Manages transactional data like inventory and sales.
 - PostgreSQL: Used for the staging data warehouse.
-- IBM DB2: Serves as the production data warehouse on the cloud.
+- Snowflake: Serves as the production data warehouse on the cloud.
 - Hadoop: Used as the big data platform for analytics.
 - Apache Spark: Utilized for big data analysis on the Hadoop cluster.
 
@@ -32,9 +32,9 @@ SoftCart's online presence is primarily through its website, which customers acc
 ### 3. PostgreSQL Staging Data Warehouse
 - Task: Design a data warehouse star schema using pgAdmin ERD design tool, extract sales data from MySQL and catalog data from MongoDB, and store it in the PostgreSQL staging data warehouse. Generate reports such as total sales per year per country, total sales per month per category, total sales per quarter per country, and total sales per category per country.
 - Tools: PostgreSQL, pgAdmin.
-### 4. IBM Db2 Production Data Warehouse
-- Task: Create an IBM DB2 instance using the adjusted schema design, load sample datasets into the tables, write aggregation queries, and create a Materialized Query Table for future reports.
-- Tools: IBM DB2.
+### 4. Snowflake Production Data Warehouse
+- Task: Create a Snowflake instance using the adjusted schema design, load sample datasets into the tables, write aggregation queries, and create a Materialized Query Table for future reports.
+- Tools: Snowflake.
 ### 5. Python Scripts & Automation
 - Task: Automate the synchronization process between the staging data warehouse and production data warehouse by regularly updating the DB2 instance with new records from MySQL.
 - Tools: Python.
@@ -59,7 +59,7 @@ SoftCart's online presence is primarily through its website, which customers acc
 │   ├── erd_design.pgerd
 │   ├── staging_schema.sql
 │   └── load_staging_data.py
-├── db2/
+├── Snowflake/
 │   ├── production_schema.sql
 │   ├── load_production_data.py
 │   └── aggregation_queries.sql
