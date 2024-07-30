@@ -1,5 +1,9 @@
-# IBM Data Engineering Capstone Project
-In this project, I will assume the role of a Junior Data Engineer who has recently joined a fictional online e-Commerce company named SoftCart. I will be presented with real-world use cases that will require me to apply a number of industry standard data engineering solutions.
+# SoftCart Data Engineering Project
+## Objectives
+- Demonstrate proficiency in skills required for an entry-level data engineering role.
+- Design and implement various concepts and components in the data engineering lifecycle.
+- Showcase working knowledge with relational databases, NoSQL data stores, big data engines, data warehouses, and data pipelines.
+- Apply skills in Linux shell scripting, SQL, and Python programming languages to Data Engineering problems.
 
 ![Data Platform Architecture](data-platform-architecture.png)
 
