@@ -5,7 +5,7 @@
 - Showcase working knowledge with relational databases, NoSQL data stores, big data engines, data warehouses, and data pipelines.
 - Apply skills in Linux shell scripting, SQL, and Python programming languages to Data Engineering problems.
 
-![Data Platform Architecture](data-platform-architecture.png)
+![Data Platform Architecture](data_architecture.png)
 
 ## Project Overview
 SoftCart's online presence is primarily through its website, which customers access using a variety of devices like laptops, mobiles, and tablets. This project involves designing and implementing various data repositories and pipelines to support SoftCart's operations and analytics.
