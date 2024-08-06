@@ -3,7 +3,7 @@ import snowflake.connector
 # Snowflake connection details
 snowflake_config = {
     'user': 'DAVID2342',
-    'password': 'rQYDUxYdP8WFsWV',
+    'password': '********',
     'account': 'um76382.eu-central-2.aws',
     'warehouse': 'TRANSFORMING',
     'database': 'SoftCart',
