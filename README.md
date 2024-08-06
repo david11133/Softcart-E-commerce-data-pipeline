@@ -48,9 +48,10 @@ SoftCart's online presence is primarily through its website, which customers acc
 ## Project Structure
 ```graphql
 ├── mysql/
-│   ├── schema.sql
-│   ├── export_sales.sh
-│   └── sample_sales_data.sql
+|   ├── import_sales_data.sh 
+│   ├── oltp_data.csv
+│   ├── sample_oltp_data.png
+│   └── schema.sql
 ├── mongodb/
 │   ├── import_catalog.py
 │   ├── catalog.json
