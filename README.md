@@ -62,9 +62,10 @@ SoftCart's online presence is primarily through its website, which customers acc
 │   ├── load_staging_data.py
 │   └── staging_schema.sql
 ├── Snowflake/
-│   ├── production_schema.sql
+|   ├── Output/
+│   ├── aggregation_queries.sql
 │   ├── load_production_data.py
-│   └── aggregation_queries.sql
+│   └── production_schema.sql
 ├── python_scripts/
 │   └── sync_databases.py
 ├── airflow/
