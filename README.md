@@ -56,10 +56,11 @@ SoftCart's online presence is primarily through its website, which customers acc
 │   ├── catalog.json
 │   └── import_catalog.py
 ├── postgresql/
+|   ├── data/
 │   ├── erd_design.pgerd
 │   ├── erd_design.png
-│   ├── staging_schema.sql
-│   └── load_staging_data.py
+│   ├── load_staging_data.py
+│   └── staging_schema.sql
 ├── Snowflake/
 │   ├── production_schema.sql
 │   ├── load_production_data.py
