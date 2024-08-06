@@ -53,9 +53,8 @@ SoftCart's online presence is primarily through its website, which customers acc
 │   ├── sample_oltp_data.png
 │   └── schema.sql
 ├── mongodb/
-│   ├── import_catalog.py
 │   ├── catalog.json
-│   └── export_electronics.py
+│   └── import_catalog.py
 ├── postgresql/
 │   ├── erd_design.pgerd
 │   ├── staging_schema.sql
