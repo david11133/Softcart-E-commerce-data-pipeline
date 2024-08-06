@@ -67,7 +67,9 @@ SoftCart's online presence is primarily through its website, which customers acc
 │   ├── load_production_data.py
 │   └── production_schema.sql
 ├── python_scripts/
-│   └── sync_databases.py
+│   ├── MysqlConnect.py
+│   ├── SnowflakeConnect.py
+│   └── Syncronization.py
 ├── airflow/
 │   └── dag_pipeline.py
 ├── spark/
